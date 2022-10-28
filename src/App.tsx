@@ -15,7 +15,6 @@ function App() {
     //         .then(response => response.json())
     //         .then(json => setUsers(json.data))
     // }, [])
-
     const showUp = () => {
         fetch('https://jsonplaceholder.typicode.com/todos')
             .then(response => response.json())
